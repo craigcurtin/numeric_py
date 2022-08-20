@@ -34,4 +34,5 @@ if __name__ == '__main__':
     x = np.array([[1], [0]])
     b = np.dot(A, x)
 
+
     plot_vect(x, b, (0, 3), (-0.5, 0.5))
